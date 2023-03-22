@@ -5,7 +5,7 @@
 }
 
 .welcome {
-  color: rgb(215, 194, 177);
+  color: rgb(19, 32, 61);
   margin-right: 10px;
   font-size: 19px;
 }
@@ -20,11 +20,11 @@
   font-size: 19px;
   border: none;
   font-family: "Aboreto", cursive;
-  background-color: rgb(215, 194, 177);
-  color: rgb(241, 239, 238);
+  background-color: rgb(223, 186, 154);
+  color: rgb(19, 32, 61);
 }
 
 .button:not([disabled]):hover {
-  background-color: rgb(1, 27, 90);
+  background-color: rgb(19, 32, 61);
   color: #fff;
 }

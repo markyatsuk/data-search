@@ -1,8 +1,10 @@
 import s from "./Section.module.css";
 
-const Section = ({ title, children }) => (
+const Section = ({ title, center = false, children }) => (
   <div>
-    <h2 className={s.title}>{title}</h2>
+    <h2 className={center ? s.title + " " + s.titleCenter : s.title}>
+      {title}
+    </h2>
     {children}
   </div>
 );

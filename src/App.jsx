@@ -7,10 +7,9 @@ import PublicRoute from "./components/PublicRoute/PublicRoute";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import { Route, Routes, Navigate } from "react-router-dom";
 import NotFoundView from "./views/NotFound/NotFoundView";
-const ContactsView = lazy(() =>
-  import(
-    "./views/ContactsView/ContactsView.jsx" /* webpackChunkName: contacts-view*/
-  )
+import "./index.css";
+const CardsView = lazy(() =>
+  import("./views/CardsView/CardsView.jsx" /* webpackChunkName: contacts-view*/)
 );
 const LoginView = lazy(() =>
   import("./views/LoginView/LoginView.jsx" /* webpackChunkName: login-view*/)
@@ -40,12 +39,12 @@ function App(store) {
           <Routes>
             <Route path="/" element={<Navigate to="login" />}></Route>
             <Route element={<PrivateRoute redirectTo="login" />}>
-              <Route path="/contacts" element={<ContactsView />}></Route>
+              <Route path="/data" element={<CardsView />}></Route>
             </Route>
-            <Route element={<PublicRoute restricted redirectTo="contacts" />}>
+            <Route element={<PublicRoute restricted redirectTo="data" />}>
               <Route path="/login" element={<LoginView />}></Route>
             </Route>
-            <Route element={<PublicRoute restricted redirectTo="contacts" />}>
+            <Route element={<PublicRoute restricted redirectTo="data" />}>
               <Route path="/register" element={<RegisterView />}></Route>
             </Route>
             <Route path="*" element={<NotFoundView />}></Route>

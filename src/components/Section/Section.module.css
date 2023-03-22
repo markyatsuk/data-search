@@ -1,4 +1,9 @@
 .title {
   font-size: 30px;
-  color: rgb(1, 27, 90);
+  color: rgb(19, 32, 61);
+  margin: 0;
+}
+
+.titleCenter {
+  text-align: center;
 }

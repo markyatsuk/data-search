@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import s from "./Navigation.module.css";
-import ContactsMenu from "../ContactsMenu/ContactsMenu";
+// import ContactsMenu from "../ContactsMenu/ContactsMenu";
 import AuthMenu from "../AuthMenu/AuthMenu.jsx";
 import UserMenu from "../UserMenu/UserMenu";
 import authSelectors from "../../redux/auth/authSelectors";
@@ -13,7 +13,7 @@ export default function Navigation() {
     <header className={s.header}>
       <nav>
         <Logo />
-        {isLoggedIn && <ContactsMenu />}
+        {/* {isLoggedIn && <ContactsMenu />} */}
 
         {isLoggedIn ? <UserMenu /> : <AuthMenu />}
       </nav>

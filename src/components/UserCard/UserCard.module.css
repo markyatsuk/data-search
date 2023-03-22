@@ -1,0 +1,32 @@
+.card {
+  width: auto;
+  border: 1px rgb(19, 32, 61) solid;
+  padding: 10px 15px;
+  /* margin-bottom: 10px; */
+}
+
+.card + .card {
+  margin-left: 25px;
+}
+
+.logo {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.name {
+  text-align: center;
+  color: rgb(19, 32, 61);
+}
+
+.username {
+  text-align: center;
+  color: rgb(19, 32, 61);
+}
+
+.email {
+  text-align: center;
+  color: rgb(19, 32, 61);
+}

@@ -1,0 +1,22 @@
+.container {
+  margin: 0 auto;
+  background-color: rgb(244, 217, 195);
+  padding: 25px 15px;
+  width: max-content;
+  border-radius: 5px;
+  margin-top: 47px;
+}
+
+.cardsList {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerBottom {
+  margin: 0 auto;
+  padding: 25px 15px;
+  width: max-content;
+}
