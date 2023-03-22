@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/data-search/static/css/main.0ee5736b.css",
-    "main.js": "/data-search/static/js/main.f7800a2f.js",
-    "static/css/967.ac1eaa0d.chunk.css": "/data-search/static/css/967.ac1eaa0d.chunk.css",
-    "static/js/967.6e83b7ea.chunk.js": "/data-search/static/js/967.6e83b7ea.chunk.js",
-    "static/css/359.2c55277e.chunk.css": "/data-search/static/css/359.2c55277e.chunk.css",
+    "main.css": "/data-search/static/css/main.3d4da370.css",
+    "main.js": "/data-search/static/js/main.f9db772c.js",
+    "static/css/600.2739d822.chunk.css": "/data-search/static/css/600.2739d822.chunk.css",
+    "static/js/600.6d6e965d.chunk.js": "/data-search/static/js/600.6d6e965d.chunk.js",
+    "static/css/359.782322fd.chunk.css": "/data-search/static/css/359.782322fd.chunk.css",
     "static/js/359.77bdc22b.chunk.js": "/data-search/static/js/359.77bdc22b.chunk.js",
-    "static/css/695.1223aa1b.chunk.css": "/data-search/static/css/695.1223aa1b.chunk.css",
+    "static/css/695.622d5068.chunk.css": "/data-search/static/css/695.622d5068.chunk.css",
     "static/js/695.fb16c5b8.chunk.js": "/data-search/static/js/695.fb16c5b8.chunk.js",
+    "static/media/logo_2_alabama_so_big.png": "/data-search/static/media/logo_2_alabama_so_big.72b486dad65e4fd15e83.png",
     "index.html": "/data-search/index.html",
-    "main.0ee5736b.css.map": "/data-search/static/css/main.0ee5736b.css.map",
-    "main.f7800a2f.js.map": "/data-search/static/js/main.f7800a2f.js.map",
-    "967.ac1eaa0d.chunk.css.map": "/data-search/static/css/967.ac1eaa0d.chunk.css.map",
-    "967.6e83b7ea.chunk.js.map": "/data-search/static/js/967.6e83b7ea.chunk.js.map",
-    "359.2c55277e.chunk.css.map": "/data-search/static/css/359.2c55277e.chunk.css.map",
+    "main.3d4da370.css.map": "/data-search/static/css/main.3d4da370.css.map",
+    "main.f9db772c.js.map": "/data-search/static/js/main.f9db772c.js.map",
+    "600.2739d822.chunk.css.map": "/data-search/static/css/600.2739d822.chunk.css.map",
+    "600.6d6e965d.chunk.js.map": "/data-search/static/js/600.6d6e965d.chunk.js.map",
+    "359.782322fd.chunk.css.map": "/data-search/static/css/359.782322fd.chunk.css.map",
     "359.77bdc22b.chunk.js.map": "/data-search/static/js/359.77bdc22b.chunk.js.map",
-    "695.1223aa1b.chunk.css.map": "/data-search/static/css/695.1223aa1b.chunk.css.map",
+    "695.622d5068.chunk.css.map": "/data-search/static/css/695.622d5068.chunk.css.map",
     "695.fb16c5b8.chunk.js.map": "/data-search/static/js/695.fb16c5b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ee5736b.css",
-    "static/js/main.f7800a2f.js"
+    "static/css/main.3d4da370.css",
+    "static/js/main.f9db772c.js"
   ]
 }
